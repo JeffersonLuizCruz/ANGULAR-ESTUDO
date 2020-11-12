@@ -23,7 +23,12 @@
 
 .content {
 
+<<<<<<< Updated upstream
     padding: 5px 160px;
     background-color: #FFF;
 
+=======
+    padding: 16px;
+    background-color: white;
+>>>>>>> Stashed changes
 }
