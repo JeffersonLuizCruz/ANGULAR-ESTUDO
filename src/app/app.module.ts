@@ -6,20 +6,18 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/template/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
-<<<<<<< Updated upstream
 import { MatCardModule } from '@angular/material/card'
-=======
-import { MatCardModule } from '@angular/material/card';
->>>>>>> Stashed changes
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './view/home/home.component';
-<<<<<<< Updated upstream
 import { ProductCrudComponent } from './view/product-crud/product-crud.component';
-=======
->>>>>>> Stashed changes
+import { RedDirective } from './directives/red.directive';
+import { MyForDirective } from './directives/my-for.directive';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -27,12 +25,11 @@ import { ProductCrudComponent } from './view/product-crud/product-crud.component
     HeaderComponent,
     FooterComponent,
     NavComponent,
-<<<<<<< Updated upstream
     HomeComponent,
-    ProductCrudComponent
-=======
-    HomeComponent
->>>>>>> Stashed changes
+    ProductCrudComponent,
+    RedDirective,
+    MyForDirective,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +38,9 @@ import { ProductCrudComponent } from './view/product-crud/product-crud.component
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
